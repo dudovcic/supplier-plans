@@ -35,6 +35,6 @@ export class Planner {
 
     priceTotalPounds = priceTotalPounds * this.VAT;
 
-    return priceTotalPounds.toFixed(2);
+    return priceTotalPounds;
   }
 }
